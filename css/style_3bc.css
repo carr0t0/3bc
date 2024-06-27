@@ -46,12 +46,14 @@ html,body{font-family: "Noto Sans KR", sans-serif; color: #333;}
     
 }
 @media all and (max-width:680px){
+    .logo{font-size: 20px; letter-spacing: 0.5px;}
     .box{width: 50%}
     .container{align-items: center;}
     .sns{display: none;}
 }
 
 @media all and (max-width:540px){
+    .logo{font-size: 15px; letter-spacing: 0.5px;}
     .box{width: 100%}
     .btns{justify-content: space-between;}
     .btns>li{width: 30%;}
